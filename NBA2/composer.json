@@ -1,0 +1,13 @@
+{
+    "name": "vendor/nba",
+    "description": "nba stats",
+    "autoload": {
+        "psr-4": {
+            "Dto\\": "model/dto",
+            "Dao\\": "model/dao",
+            "Bo\\": "model/bo",
+            "Model\\": "model",
+            "Controller\\": "controller"
+        }
+    }
+}
